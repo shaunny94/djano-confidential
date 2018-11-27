@@ -1,0 +1,488 @@
+[
+  { "model": "polls.LanguageData",
+    "pk": 1,
+    "fields": {
+    "name": "Afrikaans",
+    "short_name": "af",
+    "total_docs": 76
+    }
+  },
+  { 
+    "model": "polls.LanguageData",
+    "pk": 2,
+    "fields": {
+    "name": "Aragonese",
+    "short_name": "an",
+    "total_docs": 119
+    }
+  },
+  { "model": "polls.LanguageData",
+    "pk": 3,
+    "fields": {
+    "name": "Arabic",
+    "short_name": "ar",
+    "total_docs": 21
+    }
+  },
+  { 
+    "model": "polls.LanguageData",
+    "pk": 4,
+    "fields": {
+    "name": "Asturian",
+    "short_name": "ast",
+    "total_docs": 116
+    }
+  },
+  { 
+    "model": "polls.LanguageData",
+    "pk": 5,
+    "fields": {
+    "name": "Belarusian",
+    "short_name": "be",
+    "total_docs": 1
+    }
+  },
+  { 
+    "model": "polls.LanguageData",
+    "pk": 6,
+    "fields": {
+    "name": "Bulgarian",
+    "short_name": "bg",
+    "total_docs": 18
+    }
+  },
+  { 
+    "model": "polls.LanguageData",
+    "pk": 7,
+    "fields": {
+    "name": "Bengali",
+    "short_name": "bn",
+    "total_docs": 205
+  }},
+  { 
+    "model": "polls.LanguageData",
+    "pk": 8,
+    "fields": {
+    "name": "Breton",
+    "short_name": "br",
+    "total_docs": 98
+    }
+  },
+  { 
+    "model": "polls.LanguageData",
+    "pk": 9,
+    "fields": {
+    "name": "Catalan",
+    "short_name": "ca",
+    "total_docs": 221
+    }
+  },
+  { 
+    "model": "polls.LanguageData",
+    "pk": 10,
+    "fields": {
+    "name": "Czech",
+    "short_name": "cs",
+    "total_docs": 64
+    }
+  },
+  { 
+    "model": "polls.LanguageData",
+    "pk": 11,
+    "fields": {
+    "name": "Welsh",
+    "short_name": "cy",
+    "total_docs": 465
+    }
+  },
+  { 
+    "model": "polls.LanguageData",
+    "pk": 12,
+    "fields": {
+    "name": "Danish",
+    "short_name": "da",
+    "total_docs": 106
+    }
+  },
+  { 
+    "model": "polls.LanguageData",
+    "pk": 13,
+    "fields": {
+    "name": "German",
+    "short_name": "de",
+    "total_docs": 5917
+    }
+  },
+  { "model": "polls.LanguageData",
+    "pk": 14,
+    "fields": {
+    "name": "Greek",
+    "short_name": "el",
+    "total_docs": 29
+    }
+  },
+  { 
+    "model": "polls.LanguageData",
+    "pk": 15,
+    "fields": {
+    "name": "English",
+    "short_name": "en",
+    "total_docs": 425520
+    }
+  },
+  { "model": "polls.LanguageData",
+    "pk": 16,
+    "fields": {
+    "name": "Spanish",
+    "short_name": "es",
+    "total_docs": 1833
+    }
+  },
+  { "model": "polls.LanguageData",
+    "pk": 17,
+    "fields": {
+    "name": "Estonian",
+    "short_name": "et",
+    "total_docs": 76
+  } },
+  { 
+    "model": "polls.LanguageData",
+    "pk": 18,
+    "fields": {
+    "name": "Basque",
+    "short_name": "eu",
+    "total_docs": 58
+    }
+  },
+  { "model": "polls.LanguageData",
+    "pk": 19,
+    "fields": {
+    "name": "Persian",
+    "short_name": "fa",
+    "total_docs": 3
+    }
+  },
+  { 
+    "model": "polls.LanguageData",
+    "pk": 20,
+    "fields": {
+    "name": "Finnish",
+    "short_name": "fi",
+    "total_docs": 57
+    }
+  },
+  { "model": "polls.LanguageData",
+    "pk": 21,
+    "fields": {
+    "name": "French",
+    "short_name": "fr",
+    "total_docs": 3133
+    }
+  },
+  { "model": "polls.LanguageData",
+    "pk": 22,
+    "fields": {
+    "name": "Irish",
+    "short_name": "ga",
+    "total_docs": 132
+    }
+  },
+  { 
+    "model": "polls.LanguageData",
+    "pk": 23,
+    "fields": {
+    "name": "Gallegan",
+    "short_name": "gl",
+    "total_docs": 96
+    }
+  },
+  { "model": "polls.LanguageData",
+    "pk": 24,
+    "fields": {
+    "name": "Hebrew",
+    "short_name": "he",
+    "total_docs": 3
+    }
+  },
+  { "model": "polls.LanguageData",
+    "pk": 25,
+    "fields": {
+    "name": "Croatian",
+    "short_name": "hr",
+    "total_docs": 62
+    }
+  },
+  { "model": "polls.LanguageData",
+    "pk": 26,
+    "fields": {
+    "name": "Haitian",
+    "short_name": "ht",
+    "total_docs": 71
+    }
+  },
+  { "model": "polls.LanguageData",
+    "pk": 27,
+    "fields": {
+    "name": "Hungarian",
+    "short_name": "hu",
+    "total_docs": 83
+    }
+  },
+  { "model": "polls.LanguageData",
+    "pk": 28,
+    "fields": {
+    "name": "Indonesian",
+    "short_name": "id",
+    "total_docs": 123
+    }
+  },
+  { "model": "polls.LanguageData",
+    "pk": 29,
+    "fields": {
+    "name": "Icelandic",
+    "short_name": "is",
+    "total_docs": 43
+    }
+  },
+  { "model": "polls.LanguageData",
+    "pk": 30,
+    "fields": {
+    "name": "Italian",
+    "short_name": "it",
+    "total_docs": 621
+    }
+  },
+  { "model": "polls.LanguageData",
+    "pk": 31,
+    "fields": {
+    "name": "Japanese",
+    "short_name": "ja",
+    "total_docs": 1
+    }
+  },
+  { "model": "polls.LanguageData",
+    "pk": 32,
+    "fields": {
+    "name": "Korean",
+    "short_name": "ko",
+    "total_docs": 16
+    }
+  },
+  { "model": "polls.LanguageData",
+    "pk": 33,
+    "fields": {
+    "name": "Lithuanian",
+    "short_name": "lt",
+    "total_docs": 22
+    }
+  },
+  { "model": "polls.LanguageData",
+    "pk": 34,
+    "fields": {
+    "name": "Latvian",
+    "short_name": "lv",
+    "total_docs": 12
+    }
+  },
+  { "model": "polls.LanguageData",
+    "pk": 35,
+    "fields": {
+    "name": "Malayalam",
+    "short_name": "ml",
+    "total_docs": 6
+    }
+  },
+  { 
+    "model": "polls.LanguageData",
+    "pk": 36,
+    "fields": {
+    "name": "Malay",
+    "short_name": "ms",
+    "total_docs": 212
+    }
+  },
+  { "model": "polls.LanguageData",
+    "pk": 37,
+    "fields": {
+    "name": "Maltese",
+    "short_name": "mt",
+    "total_docs": 167
+    }
+  },
+  { "model": "polls.LanguageData",
+    "pk": 38,
+    "fields": {
+    "name": "Nepali",
+    "short_name": "ne",
+    "total_docs": 2
+    }
+  },
+  { "model": "polls.LanguageData",
+    "pk": 39,
+    "fields": {
+    "name": "Dutch",
+    "short_name": "nl",
+    "total_docs": 604
+    }
+  },
+  { "model": "polls.LanguageData",
+    "pk": 40,
+    "fields": {
+    "name": "Norwegian",
+    "short_name": "no",
+    "total_docs": 57
+    }
+  },
+  { "model": "polls.LanguageData",
+    "pk": 41,
+    "fields": {
+    "name": "Occitan",
+    "short_name": "oc",
+    "total_docs": 48
+    }
+  },
+  { "model": "polls.LanguageData",
+    "pk": 42,
+    "fields": {
+    "name": "Polish",
+    "short_name": "pl",
+    "total_docs": 222
+    }
+  },
+  { "model": "polls.LanguageData",
+    "pk": 43,
+    "fields": {
+    "name": "Portuguese",
+    "short_name": "pt",
+    "total_docs": 286
+    }
+  },
+  { "model": "polls.LanguageData",
+    "pk": 44,
+    "fields": {
+    "name": "Romanian",
+    "short_name": "ro",
+    "total_docs": 305
+    }
+  },
+  { "model": "polls.LanguageData",
+    "pk": 45,
+    "fields": {
+    "name": "Russian",
+    "short_name": "ru",
+    "total_docs": 390
+    }
+  },
+  { "model": "polls.LanguageData",
+    "pk": 46,
+    "fields": {
+    "name": "Slovak",
+    "short_name": "sk",
+    "total_docs": 36
+    }
+  },
+  { "model": "polls.LanguageData",
+    "pk": 47,
+    "fields": {
+    "name": "Slovenian",
+    "short_name": "sl",
+    "total_docs": 28
+    }
+  },
+  { "model": "polls.LanguageData",
+    "pk": 48,
+    "fields": {
+    "name": "Somali",
+    "short_name": "so",
+    "total_docs": 488
+    }
+  },
+  { "model": "polls.LanguageData",
+    "pk": 49,
+    "fields": {
+    "name": "Albanian",
+    "short_name": "sq",
+    "total_docs": 53
+    }
+  },
+  { "model": "polls.LanguageData",
+    "pk": 50,
+    "fields": {
+    "name": "Swedish",
+    "short_name": "sv",
+    "total_docs": 109
+    }
+  },
+  { "model": "polls.LanguageData",
+    "pk": 51,
+    "fields": {
+    "name": "Swahili",
+    "short_name": "sw",
+    "total_docs": 58
+    }
+  },
+  { "model": "polls.LanguageData",
+    "pk": 52,
+    "fields": {
+    "name": "Thai",
+    "short_name": "th",
+    "total_docs": 118
+    }
+  },
+  { "model": "polls.LanguageData",
+    "pk": 53,
+    "fields": {
+    "name": "Tagalog",
+    "short_name": "tl",
+    "total_docs": 158
+    }
+  },
+  { "model": "polls.LanguageData",
+    "pk": 54,
+    "fields": {
+    "name": "Turkish",
+    "short_name": "tr",
+    "total_docs": 83
+    }
+  },
+  { "model": "polls.LanguageData",
+    "pk": 55,
+    "fields": {
+    "name": "Ukrainian",
+    "short_name": "uk",
+    "total_docs": 11
+    }
+  },
+  { "model": "polls.LanguageData",
+    "pk": 56,
+    "fields": {
+    "name": "Urdu",
+    "short_name": "ur",
+    "total_docs": 2
+    }
+  },
+  { "model": "polls.LanguageData",
+    "pk": 57,
+    "fields": {
+    "name": "Vietnamese",
+    "short_name": "vi",
+    "total_docs": 328
+    }
+  },
+  { "model": "polls.LanguageData",
+    "pk": 58,
+    "fields": {
+    "name": "Chinese (China)",
+    "short_name": "zh-cn",
+    "total_docs": 13
+    }
+  },
+  { "model": "polls.LanguageData",
+    "pk": 59,
+    "fields": {
+    "name": "Chinese (Taiwan)",
+    "short_name": "zh-tw",
+    "total_docs": 12
+    }
+  }
+]

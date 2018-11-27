@@ -1,0 +1,44 @@
+[
+  { 
+    "model": "polls.ConfidentialLabels",
+    "pk": 1,
+    "fields" : {
+    "name": "Top Secret"
+  }
+},
+  { 
+    "model": "polls.ConfidentialLabels",
+    "pk": 2,
+    "fields" : {
+    "name": "Secret"
+    }
+  },
+  { 
+    "model": "polls.ConfidentialLabels",
+    "pk": 3,
+    "fields": {
+    "name": "Confidential"
+    }
+  },
+  {
+    "model": "polls.ConfidentialLabels",
+    "pk": 6,
+    "fields": {
+    "name": "Private"
+    }
+  },
+  { 
+    "model": "polls.ConfidentialLabels",
+    "pk": 4,
+    "fields" : {
+    "name": "Internal"
+    }
+  },
+  { 
+    "model": "polls.ConfidentialLabels",
+    "pk": 5,
+    "fields": {
+    "name": "Public"
+  }
+ }
+]
