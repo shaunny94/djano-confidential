@@ -13,10 +13,10 @@ class ConfidentialData(models.Model):
 class ConfidentialLabels(models.Model):
     # question_text = models.CharField(max_length=200)
     # pub_date = models.DateTimeField('date published')
-    confidential_labels = models.ForeignKey(ConfidentialData, on_delete=models.CASCADE, null=True)
+    id_number = models.ForeignKey(ConfidentialData, on_delete=models.CASCADE, null=True)
     name = models.CharField(max_length=200)
     def __str__(self):
-        return "{} - {}".format(self.name, self.confidential_labels)
+        return "{} - {}".format(self.name, self.id_number)
 
 
 class DoctypeData(models.Model):
@@ -30,8 +30,10 @@ class DoctypeData(models.Model):
 class DoctypeLabels(models.Model):
     # question_text = models.CharField(max_length=200)
     # pub_date = models.DateTimeField('date published')
-    doctype_labels = models.ForeignKey(DoctypeData, on_delete=models.CASCADE, null=True)
+    id_number = models.ForeignKey(DoctypeData, on_delete=models.CASCADE, null=True)
     name = models.CharField(max_length=200)
+    def __str__(self):
+        return "{} - {}".format(self.name, self.id_number)
 
 class LanguageData(models.Model):
     # question_text = models.CharField(max_length=200)
@@ -39,10 +41,14 @@ class LanguageData(models.Model):
     name = models.CharField(max_length=200)
     total_docs = models.IntegerField(default=0)
     short_name = models.CharField(max_length=200)
+    def __str__(self):
+        return "{} - {}".format(self.name, self.total_docs, self.short_name)
 
 class LanguageLabels(models.Model):
     # question_text = models.CharField(max_length=200)
     # pub_date = models.DateTimeField('date published')
-    language_data = models.ForeignKey(LanguageData, on_delete=models.CASCADE, null=True)
+    id_number = models.ForeignKey(LanguageData, on_delete=models.CASCADE, null=True)
     name = models.CharField(max_length=200)
     shortName = models.CharField(max_length=200)
+    def __str__(self):
+        return "{} - {}".format(self.name, self.id_number, self.short_name)
