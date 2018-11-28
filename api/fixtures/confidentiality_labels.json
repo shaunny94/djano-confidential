@@ -1,0 +1,44 @@
+[
+    { 
+      "model": "mock_data.ConfidentialLabels",
+      "pk": 1,
+      "fields" : {
+      "name": "Top Secret"
+    }
+  },
+    { 
+      "model": "mock_data.ConfidentialLabels",
+      "pk": 2,
+      "fields" : {
+      "name": "Secret"
+      }
+    },
+    { 
+      "model": "mock_data.ConfidentialLabels",
+      "pk": 3,
+      "fields": {
+      "name": "Confidential"
+      }
+    },
+    {
+      "model": "mock_data.ConfidentialLabels",
+      "pk": 6,
+      "fields": {
+      "name": "Private"
+      }
+    },
+    { 
+      "model": "mock_data.ConfidentialLabels",
+      "pk": 4,
+      "fields" : {
+      "name": "Internal"
+      }
+    },
+    { 
+      "model": "mock_data.ConfidentialLabels",
+      "pk": 5,
+      "fields": {
+      "name": "Public"
+    }
+   }
+  ]

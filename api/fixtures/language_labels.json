@@ -1,0 +1,429 @@
+[
+    { "model": "mock_data.LanguageLabels",
+      "pk": 1,
+      "fields": {
+      "name": "Afrikaans",
+      "shortName": "af"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 2,
+      "fields": {
+      "name": "Aragonese",
+      "shortName": "an"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 3,
+      "fields": {
+      "name": "Arabic",
+      "shortName": "ar"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 4,
+      "fields": {
+      "name": "Asturian",
+      "shortName": "ast"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 5,
+      "fields": {
+      "name": "Belarusian",
+      "shortName": "be"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 6,
+      "fields": {
+      "name": "Bulgarian",
+      "shortName": "bg"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 7,
+      "fields": {
+      "name": "Bengali",
+      "shortName": "bn"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 8,
+      "fields": {
+      "name": "Breton",
+      "shortName": "br"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 9,
+      "fields": {
+      "name": "Catalan",
+      "shortName": "ca"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 10,
+      "fields": {
+      "name": "Czech",
+      "shortName": "cs"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 11,
+      "fields": {
+      "name": "Welsh",
+      "shortName": "cy"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 12,
+      "fields": {
+      "name": "Danish",
+      "shortName": "da"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 13,
+      "fields": {
+      "name": "German",
+      "shortName": "de"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 14,
+      "fields": {
+      "name": "Greek",
+      "shortName": "el"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 15,
+      "fields": {
+      "name": "English",
+      "shortName": "en"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 16,
+      "fields": {
+      "name": "Spanish",
+      "shortName": "es"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 17,
+      "fields": {
+      "name": "Estonian",
+      "shortName": "et"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 18,
+      "fields": {
+      "name": "Basque",
+      "shortName": "eu"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 19,
+      "fields": {
+      "name": "Persian",
+      "shortName": "fa"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 20,
+      "fields": {
+      "name": "Finnish",
+      "shortName": "fi"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 21,
+      "fields": {
+      "name": "French",
+      "shortName": "fr"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 22,
+      "fields": {
+      "name": "Irish",
+      "shortName": "ga"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 23,
+      "fields": {
+      "name": "Gallegan",
+      "shortName": "gl"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 24,
+      "fields": {
+      "name": "Hebrew",
+      "shortName": "he"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 25,
+      "fields": {
+      "name": "Hindi",
+      "shortName": "hi"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 26,
+      "fields": {
+      "name": "Croatian",
+      "shortName": "hr"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 27,
+      "fields": {
+      "name": "Haitian",
+      "shortName": "ht"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 28,
+      "fields": {
+      "name": "Hungarian",
+      "shortName": "hu"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 29,
+      "fields": {
+      "name": "Indonesian",
+      "shortName": "id"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 30,
+      "fields": {
+      "name": "Icelandic",
+      "shortName": "is"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 31,
+      "fields": {
+      "name": "Italian",
+      "shortName": "it"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 32,
+      "fields": {
+      "name": "Japanese",
+      "shortName": "ja"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 33,
+      "fields": {
+      "name": "Korean",
+      "shortName": "ko"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 34,
+      "fields": {
+      "name": "Lithuanian",
+      "shortName": "lt"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 35,
+      "fields": {
+      "name": "Latvian",
+      "shortName": "lv"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 36,
+      "fields": {
+      "name": "Macedonian",
+      "shortName": "mk"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 37,
+      "fields": {
+      "name": "Malayalam",
+      "shortName": "ml"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 38,
+      "fields": {
+      "name": "Malay",
+      "shortName": "ms"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 39,
+      "fields": {
+      "name": "Maltese",
+      "shortName": "mt"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 40,
+      "fields": {
+      "name": "Nepali",
+      "shortName": "ne"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 41,
+      "fields": {
+      "name": "Dutch",
+      "shortName": "nl"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 42,
+      "fields": {
+      "name": "Norwegian",
+      "shortName": "no"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 43,
+      "fields": {
+      "name": "Occitan",
+      "shortName": "oc"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 44,
+      "fields": {
+      "name": "Polish",
+      "shortName": "pl"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 45,
+      "fields": {
+      "name": "Portuguese",
+      "shortName": "pt"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 46,
+      "fields": {
+      "name": "Romanian",
+      "shortName": "ro"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 47,
+      "fields": {
+      "name": "Russian",
+      "shortName": "ru"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 48,
+      "fields": {
+      "name": "Slovak",
+      "shortName": "sk"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 49,
+      "fields": {
+      "name": "Slovenian",
+      "shortName": "sl"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 50,
+      "fields": {
+      "name": "Somali",
+      "shortName": "so"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 51,
+      "fields": {
+      "name": "Albanian",
+      "shortName": "sq"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 52,
+      "fields": {
+      "name": "Swedish",
+      "shortName": "sv"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 53,
+      "fields": {
+      "name": "Swahili",
+      "shortName": "sw"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 54,
+      "fields": {
+      "name": "Thai",
+      "shortName": "th"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 55,
+      "fields": {
+      "name": "Tagalog",
+      "shortName": "tl"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 56,
+      "fields": {
+      "name": "Turkish",
+      "shortName": "tr"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 57,
+      "fields": {
+      "name": "Ukrainian",
+      "shortName": "uk"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 58,
+      "fields": {
+      "name": "Urdu",
+      "shortName": "ur"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 59,
+      "fields": {
+      "name": "Vietnamese",
+      "shortName": "vi"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 60,
+      "fields": {
+      "name": "Chinese (China)",
+      "shortName": "zh-cn"
+      }
+    },
+    { "model": "mock_data.LanguageLabels",
+      "pk": 61,
+      "fields": {
+      "name": "Chinese (Taiwan)",
+      "shortName": "zh-tw"
+      }
+    }
+  ]

@@ -1,0 +1,50 @@
+[
+    { "model": "mock_data.ConfidentialData",
+      "pk": 1,
+      "fields": {
+      "name": "Top Secret",
+      "total_docs": 53096
+      }
+    },
+    {
+      "model": "mock_data.ConfidentialData",
+      "pk": 2,
+      "fields": {
+      "name": "Secret",
+      "total_docs": 67964
+      }
+    },
+    { 
+      "model": "mock_data.ConfidentialData",
+      "pk": 3,
+      "fields": {
+      "name": "Confidential",
+      "total_docs": 194374
+      }
+    },
+    {
+      "model": "mock_data.ConfidentialData",
+      "pk": 4,
+      "fields": {
+      "name": "Internal",
+      "total_docs": 107742
+      }
+    },
+    {
+      "model": "mock_data.ConfidentialData",
+      "pk": 5,
+      "fields": {
+      "name": "Public",
+      "total_docs": 20038
+      }
+    },
+    { 
+      "model": "mock_data.ConfidentialData",
+      "pk": 6,
+      "fields": {
+      "id": "6",
+      "name": "Private",
+      "total_docs": 3
+      }
+    }
+  ]

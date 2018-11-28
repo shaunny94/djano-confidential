@@ -1,0 +1,37 @@
+[
+    { "model": "mock_data.DoctypeLabels",
+      "pk": 1,
+      "fields": {
+      "name": "Email"
+      }
+    },
+    { "model": "mock_data.DoctypeLabels",
+      "pk": 2,
+      "fields": {
+      "name": "Excel"
+    } },
+    { 
+      "model": "mock_data.DoctypeLabels",
+      "pk": 3,
+      "fields": {
+      "name": "Others"
+      }
+    },
+    { "model": "mock_data.DoctypeLabels",
+      "pk": 4,
+      "fields": { 
+      "name": "PDF"
+    }
+  },
+    { "model": "mock_data.DoctypeLabels",
+      "pk": 5,
+      "fields": {
+      "name": "Power Point"
+    } },
+    { 
+      "model": "mock_data.DoctypeLabels",
+      "pk": 6,
+      "fields": { 
+      "name": "Word"
+    }  }
+  ]
