@@ -29,5 +29,5 @@ class LanguageDataSerializer(serializers.ModelSerializer):
 
 class LanguageLabelsSerializer(serializers.ModelSerializer):
     class Meta:
-        model = LanguageData
-        fields = ("name", "short_name",  "id")
+        model = LanguageLabels
+        fields = ("name", "shortName",  "id")

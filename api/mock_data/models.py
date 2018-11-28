@@ -51,4 +51,4 @@ class LanguageLabels(models.Model):
     name = models.CharField(max_length=200)
     shortName = models.CharField(max_length=200)
     def __str__(self):
-        return "{} - {}".format(self.name, self.id_number, self.short_name)
+        return "{} - {}".format(self.name, self.id_number, self.shortName)

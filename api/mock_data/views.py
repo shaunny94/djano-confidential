@@ -1,6 +1,6 @@
 from rest_framework import generics
-from .models import ConfidentialLabels, ConfidentialData, DoctypeData, DoctypeLabels, LanguageData
-from .serializers import ConfidentialDataSerializer, ConfidentialLabelsSerializer, DoctypeDataSerializer, DoctypeLabelsSerializer, LanguageDataSerializer
+from .models import ConfidentialLabels, ConfidentialData, DoctypeData, DoctypeLabels, LanguageData, LanguageLabels
+from .serializers import ConfidentialDataSerializer, ConfidentialLabelsSerializer, DoctypeDataSerializer, DoctypeLabelsSerializer, LanguageDataSerializer, LanguageLabelsSerializer
 
 
 class ListConfidentialDataView(generics.ListAPIView):
@@ -39,3 +39,10 @@ class ListLanguageDataView(generics.ListAPIView):
     """
     queryset = LanguageData.objects.all()
     serializer_class = LanguageDataSerializer
+
+class ListLanguageLabelsView(generics.ListAPIView):
+    """
+    Provides a get method handler.
+    """
+    queryset = LanguageLabels.objects.all()
+    serializer_class = LanguageLabelsSerializer
