@@ -2,6 +2,8 @@ DJANGO REST FRAMEWORK DEMO
 
 This is the backend to expose endpoints regarding JSON data by DATHENA
 
+IMPORTANT DIRECTORIES
+
 [api] 
     |__ .vscode 
     |__ .gitignore 
