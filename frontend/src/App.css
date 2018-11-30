@@ -174,3 +174,7 @@ td.text-center {
 td.text-right {
   text-align: right;
 }
+
+.option {
+  text-align: center
+}

@@ -92,7 +92,7 @@ class Table extends Component {
   render() {
 
     if(!this.props.api) {  return (
-      <div>Select an option</div>
+      <div className="option">Select an option</div>
     ) } else {
       
     return (
