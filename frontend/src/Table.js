@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import './App.css';
 import './Button.css';
 import PersonList from './Datalist';
-import ObjectHead from './ObjectHead';
+
 
 import axios from 'axios';
 

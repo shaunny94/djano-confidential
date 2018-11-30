@@ -18,13 +18,25 @@ The backend scripts are in the api folder whereas the front end scripts are in t
     |__fixtures 
     |   | 
     |   |__jsonfiles provided by Dathena
-    |__api 
+    |__mock_data 
     |   | 
-    |   |__settings.py 
+    |   |__admin.py 
     |   | 
-    |   |__urls.py
+    |   |__models.py  #this is where the database tables are created
     |   | 
-    |   |__wsgi.py 
+    |   |__serializers.py
+    |    |
+    |    |__urls.py #url of the endpoints
+    |    |
+    |    |__views.py
+    |
+    |___db.sqlite3 #database is created here
+    |
+    |___Dockerfile
+    |
+    |___manage.py #this is where commands are run to create a localhost
+    |
+    |__requirements.txt #install dependencies for the docker image 
 ```
 
 
