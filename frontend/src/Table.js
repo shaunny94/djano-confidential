@@ -29,11 +29,13 @@ class Table extends Component {
       let arr = []
       console.log(this.props.api.id)
       if (this.props.endpoint === "confidentialdata") {
-            return (<tr>
-                    <td className="text-left">{Object.entries(this.props.api)}</td>
-                    <td className="text-left">{Object.entries(this.props.api)}</td>
-                    <td className="text-left">{Object.entries(this.props.api)}</td>
-                    </tr> )
+            return (
+                  this.props.api.map((data, i) => {
+                 return(  <tr>
+                    <td className="text-left">{data.id}</td>
+                    <td className="text-left">{data.name}</td>
+                    <td className="text-left">{data.total_docs}</td>
+                     </tr> ) } ) )
                   
                }
               

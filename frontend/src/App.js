@@ -17,9 +17,9 @@ class App extends Component {
   
 
   confidentialDataHandler = () => {
-    fetch("http://localhost:8000/confidentialdata")
+    axios.get("http://localhost:8000/confidentialdata")
       .then(res => {
-        const mock_data = res.json();
+        const mock_data = res.data;
         this.setState({ mock_data });
         this.setState({ endpoint: 'confidentialdata' })
       })
