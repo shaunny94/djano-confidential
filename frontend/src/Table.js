@@ -13,14 +13,25 @@ class Table extends Component {
   getTableHead = () => {
     console.log('hello')
     console.log(this.props.endpoint)
-    if (this.props.endpoint === "confidentialdata") {
+    if (this.props.endpoint !== "languagedata") {
          return ( <tr>
                   <th className="text-left">Id</th>
                   <th className="text-left">Name</th>
-                  <th className="text-left">Totaldocs</th>
+                  <th className="text-left">TotalDocs</th>
                   </tr>
                   )
         }
+
+    if (this.props.endpoint === "languagedata") {
+      return ( <tr>
+                <th className="text-left">Id</th>
+                <th className="text-left">Name</th>
+                <th className="text-left">TotalDocs</th>
+                <th className="text-left">ShortName</th>
+
+                </tr>
+                )
+      }
     } 
 
 
@@ -28,7 +39,7 @@ class Table extends Component {
     getTableBody = () => {
       let arr = []
       console.log(this.props.api.id)
-      if (this.props.endpoint === "confidentialdata") {
+      if (this.props.endpoint !== "languagedata") {
             return (
                   this.props.api.map((data, i) => {
                  return(  <tr>
@@ -38,7 +49,19 @@ class Table extends Component {
                      </tr> ) } ) )
                   
                }
+
+      if (this.props.endpoint === "languagedata") {
+        return (
+              this.props.api.map((data, i) => {
+              return(  <tr>
+                <td className="text-left">{data.id}</td>
+                <td className="text-left">{data.name}</td>
+                <td className="text-left">{data.total_docs}</td>
+                <td className="text-left">{data.short_name}</td>
+                  </tr> ) } ) )
               
+            }
+
                     
           }
       
