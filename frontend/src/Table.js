@@ -10,6 +10,38 @@ import axios from 'axios';
 class Table extends Component {
   
   
+  getTableHead = () => {
+    console.log('hello')
+    console.log(this.props.endpoint)
+    if (this.props.endpoint === "confidentialdata") {
+         return ( <tr>
+                  <th className="text-left">Id</th>
+                  <th className="text-left">Name</th>
+                  <th className="text-left">Totaldocs</th>
+                  </tr>
+                  )
+        }
+    } 
+
+
+
+    getTableBody = () => {
+      let arr = []
+      console.log(this.props.api.id)
+      if (this.props.endpoint === "confidentialdata") {
+            return (<tr>
+                    <td className="text-left">{Object.entries(this.props.api)}</td>
+                    <td className="text-left">{Object.entries(this.props.api)}</td>
+                    <td className="text-left">{Object.entries(this.props.api)}</td>
+                    </tr> )
+                  
+               }
+              
+                    
+          }
+      
+
+  
 //  createTableHead = () => {
 //   let api = this.props.api ;
 //   console.log(api);
@@ -25,25 +57,10 @@ class Table extends Component {
 //   return arr
 // }
  
-    createTableHead = () => {
-      let array = [];
-      let api = this.props.api;
-      Object.values(api).forEach(function (value, i)  {
-        array.push(<th className="text-left">Object.keys(value)[i]</th>);
-       
-      } )
-      
-        return array
-        }
     
         
     
-    //   //    }
-    //   Object.keys(api).forEach(function(key) {
-    //     arr.push(api[key]);
-    //   });
-        
-    //     }
+
 
   
 
@@ -56,19 +73,19 @@ class Table extends Component {
     return (
       <table className="table-fill">
         <thead>
-         <tr>
+         
            { 
-           this.createTableHead()
+           this.getTableHead()
             }
             
-         </tr>
+         
        </thead>
       <tbody className="table-hover">
-        <tr>
+        
           {
-            // this.createTableBody()
+            this.getTableBody()
                }
-        </tr>
+        
 
 
       </tbody>
@@ -114,3 +131,15 @@ export default Table;
 <td className="text-left">$ 98,000.00</td>
 </tr>
 </tbody>  */}
+
+// let array = [];
+// console.log('hello');
+// let api = this.props.api;
+// try {
+//  Object.values(api).map(function (value, i)  {
+//  console.log('bye')
+//  return  <th key={i} className="text-left">Object.keys(value)[i]</th>
+//  } )
+// } catch(error) {
+//       console.log(error)
+// }

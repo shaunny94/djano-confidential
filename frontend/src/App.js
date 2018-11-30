@@ -10,7 +10,8 @@ import axios from 'axios';
 class App extends Component {
 
   state = {
-	  mock_data : ''
+    mock_data : '',
+    endpoint: ''
     }
     
   
@@ -20,6 +21,7 @@ class App extends Component {
       .then(res => {
         const mock_data = res.json();
         this.setState({ mock_data });
+        this.setState({ endpoint: 'confidentialdata' })
       })
       .catch(error => {
         console.log(error.response)
@@ -30,13 +32,14 @@ class App extends Component {
     console.log(typeof this.state.mock_data);
     // console.log(typeof this.state);
      console.log( this.state.mock_data);
+     console.log(this.state.endpoint)
     // console.log( this.state);
     return (
       <div className="table-title">
 <h3>Data Table</h3>
 <button className="button-two" onClick={this.confidentialDataHandler}><span>Confidential Data</span></button>
      
-     <Table api={this.state.mock_data}/>
+     <Table api={this.state.mock_data} endpoint={this.state.endpoint}/>
     </div>
     );
   }
